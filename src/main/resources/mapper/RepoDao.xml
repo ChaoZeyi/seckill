@@ -11,7 +11,7 @@
         <!--更新逻辑：对给定的商品id，当秒杀执行时间在秒杀开始时间和结束时间之内，
             并且库存量大于等于1时，将已有库存减1-->
         <!--xml中不允许出现<=的符号-->
-        UPDATE repo SET product_num = product_name - 1
+        UPDATE repo SET product_num = product_num - 1
         WHERE product_id = #{product_id}
         AND start_time <![CDATA[ <= ]]> #{kill_time}
         AND end_time >= #{kill_time}
