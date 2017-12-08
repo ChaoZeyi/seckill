@@ -7,27 +7,27 @@ import java.util.Date;
  * @date 2017/12/5 20:22
  */
 public class KilledInfo {
-    private long product_id;
-    private long user_phone;
+    private long productId;
+    private long userPhone;
     private short state;
-    private Date create_time;
+    private Date createTime;
     // 多对一
     private Repo repo;
 
-    public long getProduct_id() {
-        return product_id;
+    public long getProductId() {
+        return productId;
     }
 
-    public void setProduct_id(long product_id) {
-        this.product_id = product_id;
+    public void setProductId(long productId) {
+        this.productId = productId;
     }
 
-    public long getUser_phone() {
-        return user_phone;
+    public long getUserPhone() {
+        return userPhone;
     }
 
-    public void setUser_phone(long user_phone) {
-        this.user_phone = user_phone;
+    public void setUserPhone(long userPhone) {
+        this.userPhone = userPhone;
     }
 
     public short getState() {
@@ -38,12 +38,12 @@ public class KilledInfo {
         this.state = state;
     }
 
-    public Date getCreate_time() {
-        return create_time;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreate_time(Date create_time) {
-        this.create_time = create_time;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public Repo getRepo() {
@@ -57,10 +57,10 @@ public class KilledInfo {
     @Override
     public String toString() {
         return "KilledInfo{" +
-                "product_id=" + product_id +
-                ", user_phone=" + user_phone +
+                "productId=" + productId +
+                ", userPhone=" + userPhone +
                 ", state=" + state +
-                ", create_time=" + create_time +
+                ", createTime=" + createTime +
                 '}';
     }
 }

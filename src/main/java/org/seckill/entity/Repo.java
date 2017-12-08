@@ -7,70 +7,70 @@ import java.util.Date;
  * @date 2017/12/5 20:17
  */
 public class Repo {
-    private long product_id;
-    private String product_name;
-    private int product_num;
-    private Date strat_time;
-    private Date end_time;
-    private Date create_time;
+    private long productId;
+    private String productName;
+    private int productNum;
+    private Date startTime;
+    private Date endTime;
+    private Date createTime;
 
-    public long getProduct_id() {
-        return product_id;
+    public long getProductId() {
+        return productId;
     }
 
-    public void setProduct_id(long product_id) {
-        this.product_id = product_id;
+    public void setProductId(long productId) {
+        this.productId = productId;
     }
 
-    public String getProduct_name() {
-        return product_name;
+    public String getProductName() {
+        return productName;
     }
 
-    public void setProduct_name(String product_name) {
-        this.product_name = product_name;
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
 
-    public int getProduct_num() {
-        return product_num;
+    public int getProductNum() {
+        return productNum;
     }
 
-    public void setProduct_num(int product_num) {
-        this.product_num = product_num;
+    public void setProductNum(int productNum) {
+        this.productNum = productNum;
     }
 
-    public Date getStrat_time() {
-        return strat_time;
+    public Date getStartTime() {
+        return startTime;
     }
 
-    public void setStrat_time(Date strat_time) {
-        this.strat_time = strat_time;
+    public void setStartTime(Date startTime) {
+        this.startTime = startTime;
     }
 
-    public Date getEnd_time() {
-        return end_time;
+    public Date getEndTime() {
+        return endTime;
     }
 
-    public void setEnd_time(Date end_time) {
-        this.end_time = end_time;
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
     }
 
-    public Date getCreate_time() {
-        return create_time;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreate_time(Date create_time) {
-        this.create_time = create_time;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     @Override
     public String toString() {
         return "Repo{" +
-                "product_id=" + product_id +
-                ", product_name='" + product_name + '\'' +
-                ", product_num=" + product_num +
-                ", strat_time=" + strat_time +
-                ", end_time=" + end_time +
-                ", create_time=" + create_time +
+                "productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", productNum=" + productNum +
+                ", startTime=" + startTime +
+                ", endTime=" + endTime +
+                ", createTime=" + createTime +
                 '}';
     }
 }
