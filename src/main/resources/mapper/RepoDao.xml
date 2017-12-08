@@ -18,12 +18,12 @@
         AND product_num >= 1;
     </update>
 
-    <select id="queryById">
+    <select id="queryById" resultType="Repo">
         SELECT * FROM repo
-        WHERE product_id = #{product_id};
+        WHERE product_id =#{product_id};
     </select>
 
-    <select id="queryAll">
+    <select id="queryAll" resultType="Repo">
         SELECT * FROM repo
         ORDER BY create_time DESC
         LIMIT #{offset}, #{limit};
