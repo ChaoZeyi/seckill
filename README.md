@@ -30,10 +30,10 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 
 ## 项目环境搭建
 
-- **操作系统：**Windows7
-- **Java IDE：**IntelliJ IDEA Ultimate 2017.1.5
-- **JDK：**1.7.0_79
-- **数据库：**MySql 5.7
+- **操作系统**：Windows7
+- **Java IDE**：IntelliJ IDEA Ultimate 2017.1.5
+- **JDK**：1.7.0_79
+- **数据库**：MySql 5.7
 - **项目管理工具**：Maven 3.5.2
 
 打开IDEA，新建工程 new project
