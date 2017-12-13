@@ -24,7 +24,25 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 
  项目效果图如下：
 
+秒杀商品列表：
 
+![list.png](https://github.com/ChaoZeyi/seckill/blob/master/images/list.png?raw=true)
+
+秒杀未开始：
+
+![countdown.png](https://github.com/ChaoZeyi/seckill/blob/master/images/countdown.png?raw=true)
+
+秒杀已结束：
+
+![end.png](https://github.com/ChaoZeyi/seckill/blob/master/images/end.png?raw=true)
+
+准备秒杀：
+
+![start.png](https://github.com/ChaoZeyi/seckill/blob/master/images/start.png?raw=true)
+
+秒杀成功：
+
+![execution.png](https://github.com/ChaoZeyi/seckill/blob/master/images/execution.png?raw=true)
 
 下面开始介绍如何一步步从零开始搭建该项目。
 
