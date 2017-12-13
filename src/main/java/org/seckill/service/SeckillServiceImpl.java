@@ -53,7 +53,7 @@ public class SeckillServiceImpl implements SeckillService {
     @Override
     public List<Repo> getSeckillList() {
 
-        return repoDao.queryAll(0, 4);
+        return repoDao.queryAll(0, 5);
     }
 
     /**
