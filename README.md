@@ -2,9 +2,9 @@
 
 SSM指的是Spring+SpringMVC+MyBatis整合框架
 
-该项目源于[慕课网](https://www.imooc.com/)上的一个课程，使用SSM框架实现高并发秒杀系统。此外还涉及到的技术有：
+该项目源于[慕课网](https://www.imooc.com/)上的一个课程，使用SSM框架实现高并发秒杀系统。
 
-SSM、mysql、Restful、tomcat
+涉及到的技术有：SSM、mysql、Restful、tomcat
 
 **为什么选择SSM框架：**
 
