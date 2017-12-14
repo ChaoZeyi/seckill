@@ -4,7 +4,7 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 
 该项目源于[慕课网](https://www.imooc.com/)上的一个课程，使用SSM框架实现高并发秒杀系统。
 
-涉及到的技术有：Maven、SSM、mysql、Restful、tomcat
+涉及到的技术有：Maven、SSM、mysql、RESTful、tomcat
 
 **为什么选择SSM框架：**
 
@@ -120,4 +120,3 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 - [Java高并发秒杀API之DAO层](https://github.com/ChaoZeyi/seckill/blob/master/notes/DAO.md)
 - [Java高并发秒杀API之Service层](https://github.com/ChaoZeyi/seckill/blob/master/notes/Service.md)
 - [Java高并发秒杀API之web层](https://github.com/ChaoZeyi/seckill/blob/master/notes/web.md)
-- [Java高并发秒杀API之高并发优化](https://github.com/ChaoZeyi/seckill/blob/master/notes/Optimization.md)
