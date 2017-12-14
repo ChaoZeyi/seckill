@@ -24,7 +24,7 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 3. [Java高并发秒杀API之web层](https://www.imooc.com/view/630)
 4. [Java高并发秒杀API之高并发优化](https://www.imooc.com/view/632)
 
- 项目效果图如下：
+##  项目效果图
 
 秒杀商品列表：
 
