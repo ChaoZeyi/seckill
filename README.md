@@ -4,7 +4,7 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 
 该项目源于[慕课网](https://www.imooc.com/)上的一个课程，使用SSM框架实现高并发秒杀系统。
 
-涉及到的技术有：SSM、mysql、Restful、tomcat
+涉及到的技术有：Maven、SSM、mysql、Restful、tomcat
 
 **为什么选择SSM框架：**
 
@@ -95,7 +95,7 @@ SSM指的是Spring+SpringMVC+MyBatis整合框架
 
 ![transaction](https://github.com/ChaoZeyi/seckill/blob/master/images/transaction.png?raw=true)
 
-**为什么我们的系统需要事务？**看如下这些故障:
+**为什么我们的系统需要事务**？看如下这些故障:
 
 1.若是用户成功秒杀商品我们记录了其购买明细却没有减库存。导致商品的超卖
 
