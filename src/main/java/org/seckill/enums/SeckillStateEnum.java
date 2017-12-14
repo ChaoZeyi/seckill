@@ -32,6 +32,7 @@ public enum SeckillStateEnum{
         return stateInfo;
     }
     //根据state得到整个枚举
+
     public static SeckillStateEnum getByState(int state){
         // values代表所有的枚举对象
         for(SeckillStateEnum stateEnum : values())
